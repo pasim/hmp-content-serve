@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  db:
+    image: mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: 41bf791e624d2be9f94aec0fe68e6fd7
+      MYSQL_DATABASE: drupal
+      MYSQL_USER: drupal
+      MYSQL_PASSWORD: f4010657f67810f399b697941b4a5433
+    ports:
+    - 3306:3306

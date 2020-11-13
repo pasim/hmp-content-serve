@@ -1,0 +1,13 @@
+uuid: 884bb591-caf6-48a3-9614-3c6b90a480f7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KuyA4NHPXcmKAjRtwa0vQc2ZcyrUJy6IlS2TAyMNRbc
+name: 'Prison content page'
+type: page
+description: 'Page type to store media content for prisons'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

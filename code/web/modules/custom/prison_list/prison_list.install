@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * implements hook_install()
+ * @throws \Drupal\Core\Entity\EntityStorageException
+ */
+function prison_list_install(){
+
+  $terms = [
+    'HMP Berwyn',
+    'HMP Feltham',
+    'HMP Wayland',
+  ];
+
+  foreach ($terms as $term){
+
+    $new_term = \Drupal\taxonomy\Entity\Term::create([
+      'vid' => 'prisons',
+      'name' => $term,
+    ]);
+
+    $new_term->enforceIsNew();
+    try {
+      $new_term->save();
+    } catch (\Drupal\Core\Entity\EntityStorageException $e) {
+      \Drupal::messenger()->addWarning("Installation failed for ".$term);
+    }
+
+  }
+
+}

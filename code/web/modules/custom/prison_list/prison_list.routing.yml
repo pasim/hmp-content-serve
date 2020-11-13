@@ -1,0 +1,9 @@
+prison_list.node_content:
+  path: '/%jsonapi%/v1/content'
+  defaults:
+    _jsonapi_resource: Drupal\prison_list\Resource\ContentNodes
+    _jsonapi_resource_types: ['node--page']
+  requirements:
+    # The same route requirements for any route definition may also be used
+    # by a JSON:API resource route.
+    _permission: 'access content'

@@ -1,0 +1,8 @@
+name: 'Prison Content List'
+type: module
+core_version_requirement: ^8.8 || ^9
+package: Prisons
+dependencies:
+  - jsonapi_resources:jsonapi_resources
+  - drupal:media
+  - drupal:media_library
