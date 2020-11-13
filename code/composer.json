@@ -19,6 +19,7 @@
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
+        "drupal/easy_install": "^10.4",
         "drupal/jsonapi_views": "1.x-dev",
         "drush/drush": "^10.3"
     },

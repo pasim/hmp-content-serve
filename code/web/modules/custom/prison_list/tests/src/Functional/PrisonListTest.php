@@ -46,6 +46,7 @@ class PrisonListTest extends BrowserTestBase {
     'editor',
     'node',
     'media',
+    'user',
     'media_library',
     'taxonomy',
     'comment',
