@@ -1,6 +1,9 @@
+uuid: e2b1ff97-57de-48db-8219-f37c1a7c1064
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: eJw8n6Tk2tO3ZysuEeGR1gZa1yRffaZzR4t0Q7iNurs
 id: audio
 label: Audio
 description: 'A locally hosted audio file.'
