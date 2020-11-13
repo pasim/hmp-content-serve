@@ -21,6 +21,6 @@ Installation
 12. You can use build in web server from drush "drush rs" from web root
 13. Local site url "http://127.0.0.1:8888/" username: "admin" password: "a210c3c009814fa413f4eeb0de00a4a3"
 14. Go ahead and create basic page content as in the test task.
-15. Check the url
+15. Check the url http://127.0.0.1:8888/api/v1/content
 
 
