@@ -6,3 +6,6 @@ dependencies:
   - jsonapi_resources:jsonapi_resources
   - drupal:media
   - drupal:media_library
+  - drupal:taxonomy
+  - drupal:editor
+  - drupal:path
