@@ -2,9 +2,9 @@ Test instructions
 
 Prerequisites;
 
-PHP 7.3
-Drush - latest
-PHP composer - latest
+- PHP 7.3
+- Drush:latest
+- PHP composer:latest
 
 Installation
 1. Clone this repo
