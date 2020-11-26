@@ -1,3 +1,17 @@
+Outcomes and the purpose of this project.
+
+The task is rather simple - to create a system that allows prisons to show customised content to inmates, based on preconfigurated rules. 
+Each piece of the content must have;
+- Editable text field.
+- Media file upload field.
+- Select list to include/exclude specific prisons in the UK.
+
+Working example.
+
+Framework/CMS - Drupal 9.
+Tested and working example is provided for the 'HMP Berwyn', 'HMP Feltham' and 'HMP Wayland',
+Please follow the setup and test instructions bellow.
+
 Test instructions
 
 Prerequisites;
