@@ -9,7 +9,8 @@ Each piece of the content must have;
 Working example.
 
 Framework/CMS - Drupal 9.
-Tested and working example is provided for the 'HMP Berwyn', 'HMP Feltham' and 'HMP Wayland',
+Tested and working example is provided for the 'HMP Berwyn', 'HMP Feltham' and 'HMP Wayland'.
+
 Please follow the setup and test instructions bellow.
 
 Test instructions
